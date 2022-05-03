@@ -34,6 +34,10 @@ public class RestaurantService {
         return restaurants;
     }
 
-    
+     public int totalcost(){
+        Restaurant rt=null;
+        int tl_cost=rt.amount();
+        return tl_cost;
+    }
 
 }
